@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CGPA and SGPA Calculator</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="your_degree">Your Degree</string>
+    <string name="enter">Enter</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="first_sem_sgpa">First Sem SGPA</string>
+    <string name="second_sem_sgpa">Second Sem SGPA</string>
+    <string name="third_sem_sgpa">Third Sem SGPA</string>
+    <string name="forth_sem_sgpa">Forth Sem SGPA</string>
+    <string name="fifth_sem_sgpa">Fifth Sem SGPA</string>
+    <string name="sixth_sem_sgpa">Sixth Sem SGPA</string>
+    <string name="seventh_sem_sgpa">Seventh Sem SGPA</string>
+    <string name="eighth_sem_sgpa">Eighth Sem SGPA</string>
+    <string name="sgpa">SGPA</string>
+    <string name="cgpa">CGPA</string>
+    <string name="subject_1">Subject 1</string>
+    <string name="subject_2">Subject 2</string>
+    <string name="subject_3">Subject 3</string>
+    <string name="subject_4">Subject 4</string>
+    <string name="subject_5">Subject 5</string>
+    <string name="subject_6">Subject 6</string>
+    <string name="subject_7">Subject 7</string>
+    <string name="subject_8">Subject 8</string>
+    <string name="subject_9">Subject 9</string>
+    <string name="subject_10">Subject 10</string>
+    <string name="credits">Subject Credits 1</string>
+    <string name="subject">Subject</string>
+    <string name="subject_credits">Subject Credits</string>
+    <string name="subject_grades">Subject Grades</string>
+
+    <string-array name="grades_array">
+        <item>O</item>
+        <item>A+</item>
+        <item>A</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>C</item>
+        <item>F</item>
+        <item>Ab</item>
+    </string-array>
+</resources>
