@@ -1,4 +1,4 @@
-package com.project.cgpacalculator;
+package com.project.resultcalculator;
 
 import android.content.Context;
 

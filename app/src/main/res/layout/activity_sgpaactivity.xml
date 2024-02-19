@@ -216,7 +216,6 @@
                 android:ems="2"
                 android:hint="@string/credits"
                 android:inputType="numberDecimal"
-
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/sub3TV"
                 app:layout_constraintStart_toEndOf="@+id/sub3TV"
@@ -227,11 +226,346 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+
                 app:layout_constraintBottom_toBottomOf="@+id/sub3Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub3Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub3Credit" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub4LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub3LL"
+            app:layout_constraintStart_toStartOf="@+id/sub3LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub3LL">
+
+            <TextView
+                android:id="@+id/sub4TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_4"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub4LL"
+                app:layout_constraintTop_toTopOf="@id/sub4LL" />
+
+            <EditText
+                android:id="@+id/sub4Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub4TV"
+                app:layout_constraintStart_toEndOf="@+id/sub4TV"
+                app:layout_constraintTop_toTopOf="@+id/sub4TV" />
+
+            <Spinner
+                android:id="@+id/sub4Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub4Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub4Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub4Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub5LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub4LL"
+            app:layout_constraintStart_toStartOf="@+id/sub4LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub4LL">
+
+            <TextView
+                android:id="@+id/sub5TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_5"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub5LL"
+                app:layout_constraintTop_toTopOf="@id/sub5LL" />
+
+            <EditText
+                android:id="@+id/sub5Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub5TV"
+                app:layout_constraintStart_toEndOf="@+id/sub5TV"
+                app:layout_constraintTop_toTopOf="@+id/sub5TV" />
+
+            <Spinner
+                android:id="@+id/sub5Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub5Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub5Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub5Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub6LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub5LL"
+            app:layout_constraintStart_toStartOf="@+id/sub5LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub5LL">
+
+            <TextView
+                android:id="@+id/sub6TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_6"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub6LL"
+                app:layout_constraintTop_toTopOf="@id/sub6LL" />
+
+            <EditText
+                android:id="@+id/sub6Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub6TV"
+                app:layout_constraintStart_toEndOf="@+id/sub6TV"
+                app:layout_constraintTop_toTopOf="@+id/sub6TV" />
+
+            <Spinner
+                android:id="@+id/sub6Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub6Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub6Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub6Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub7LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub6LL"
+            app:layout_constraintStart_toStartOf="@+id/sub6LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub6LL">
+
+            <TextView
+                android:id="@+id/sub7TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_3"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub7LL"
+                app:layout_constraintTop_toTopOf="@id/sub7LL" />
+
+            <EditText
+                android:id="@+id/sub7Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub7TV"
+                app:layout_constraintStart_toEndOf="@+id/sub7TV"
+                app:layout_constraintTop_toTopOf="@+id/sub7TV" />
+
+            <Spinner
+                android:id="@+id/sub7Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub7Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub7Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub7Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub8LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub7LL"
+            app:layout_constraintStart_toStartOf="@+id/sub7LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub7LL">
+
+            <TextView
+                android:id="@+id/sub8TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_8"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub8LL"
+                app:layout_constraintTop_toTopOf="@id/sub8LL" />
+
+            <EditText
+                android:id="@+id/sub8Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub8TV"
+                app:layout_constraintStart_toEndOf="@+id/sub8TV"
+                app:layout_constraintTop_toTopOf="@+id/sub8TV" />
+
+            <Spinner
+                android:id="@+id/sub8Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub8Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub8Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub8Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub9LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub8LL"
+            app:layout_constraintStart_toStartOf="@+id/sub8LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub8LL">
+
+            <TextView
+                android:id="@+id/sub9TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_9"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub9LL"
+                app:layout_constraintTop_toTopOf="@id/sub9LL" />
+
+            <EditText
+                android:id="@+id/sub9Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub9TV"
+                app:layout_constraintStart_toEndOf="@+id/sub9TV"
+                app:layout_constraintTop_toTopOf="@+id/sub9TV" />
+
+            <Spinner
+                android:id="@+id/sub9Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub9Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub9Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub9Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/sub10LL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            app:layout_constraintEnd_toEndOf="@+id/sub9LL"
+            app:layout_constraintStart_toStartOf="@+id/sub9LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub9LL">
+
+            <TextView
+                android:id="@+id/sub10TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/subject_10"
+
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/sub10LL"
+                app:layout_constraintTop_toTopOf="@id/sub10LL" />
+
+            <EditText
+                android:id="@+id/sub10Credit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:autofillHints=""
+                android:ems="2"
+                android:hint="@string/credits"
+                android:inputType="numberDecimal"
+
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/sub10TV"
+                app:layout_constraintStart_toEndOf="@+id/sub10TV"
+                app:layout_constraintTop_toTopOf="@+id/sub10TV" />
+
+            <Spinner
+                android:id="@+id/sub10Grade"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                app:layout_constraintBottom_toBottomOf="@+id/sub10Credit"
+                app:layout_constraintStart_toEndOf="@+id/sub10Credit"
+                app:layout_constraintTop_toTopOf="@+id/sub10Credit" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/enterBtn"
@@ -239,7 +573,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             app:layout_constraintEnd_toStartOf="@id/resultTV"
-            app:layout_constraintTop_toBottomOf="@+id/sub3LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub10LL"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="10dp"
@@ -254,7 +588,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginStart="10dp"
             app:layout_constraintStart_toEndOf="@id/enterBtn"
-            app:layout_constraintTop_toBottomOf="@+id/sub3LL"
+            app:layout_constraintTop_toBottomOf="@+id/sub10LL"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="10dp"

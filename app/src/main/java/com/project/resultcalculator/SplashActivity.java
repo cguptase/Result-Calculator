@@ -1,4 +1,4 @@
-package com.project.cgpacalculator;
+package com.project.resultcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 

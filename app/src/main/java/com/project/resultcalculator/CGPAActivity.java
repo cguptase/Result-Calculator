@@ -1,4 +1,4 @@
-package com.project.cgpacalculator;
+package com.project.resultcalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
@@ -9,7 +9,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class CGPAActivity extends AppCompatActivity {
 
@@ -29,15 +28,6 @@ public class CGPAActivity extends AppCompatActivity {
 
         nameTV = findViewById(R.id.nameTV);
         degreeTV = findViewById(R.id.degreeTV);
-
-//        firstSemET = findViewById(R.id.firstSemET);
-//        secondSemET = findViewById(R.id.secondSemET);
-//        thirdSemET = findViewById(R.id.thirdSemET);
-//        forthSemET = findViewById(R.id.forthSemET);
-//        fifthSemET = findViewById(R.id.fifthSemET);
-//        sixthSemET = findViewById(R.id.sixthSemET);
-//        seventhSemET = findViewById(R.id.seventhSemET);
-//        eighthSemET = findViewById(R.id.eighthSemET);
 
         editTexts[0] = findViewById(R.id.firstSemET);
         editTexts[1] = findViewById(R.id.secondSemET);

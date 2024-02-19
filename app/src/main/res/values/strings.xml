@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">CGPA and SGPA Calculator</string>
+    <string name="app_name">Result Calculator</string>
     <string name="enter_name">Enter Name</string>
     <string name="your_degree">Your Degree</string>
     <string name="enter">Enter</string>
     <string name="enter_details">Enter Details</string>
-    <string name="first_sem_sgpa">First Sem SGPA</string>
-    <string name="second_sem_sgpa">Second Sem SGPA</string>
-    <string name="third_sem_sgpa">Third Sem SGPA</string>
-    <string name="forth_sem_sgpa">Forth Sem SGPA</string>
-    <string name="fifth_sem_sgpa">Fifth Sem SGPA</string>
-    <string name="sixth_sem_sgpa">Sixth Sem SGPA</string>
-    <string name="seventh_sem_sgpa">Seventh Sem SGPA</string>
-    <string name="eighth_sem_sgpa">Eighth Sem SGPA</string>
+    <string name="first_sem_cgpa">First Sem CGPA</string>
+    <string name="second_sem_cgpa">Second Sem CGPA</string>
+    <string name="third_sem_cgpa">Third Sem CGPA</string>
+    <string name="forth_sem_cgpa">Forth Sem CGPA</string>
+    <string name="fifth_sem_cgpa">Fifth Sem CGPA</string>
+    <string name="sixth_sem_cgpa">Sixth Sem CGPA</string>
+    <string name="seventh_sem_cgpa">Seventh Sem CGPA</string>
+    <string name="eighth_sem_cgpa">Eighth Sem CGPA</string>
     <string name="sgpa">SGPA</string>
     <string name="cgpa">CGPA</string>
     <string name="subject_1">Subject 1</string>

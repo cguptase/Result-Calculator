@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.project.cgpacalculator'
+    namespace 'com.project.resultcalculator'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.project.cgpacalculator"
+        applicationId "com.project.resultcalculator"
         minSdk 24
         targetSdk 34
         versionCode 1
