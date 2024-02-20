@@ -56,17 +56,17 @@ public class SGPAActivity extends AppCompatActivity {
             spinners[i].setAdapter(adapter);
 
             final int position = i;
-            spinners[i].setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-                @Override
-                public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
-                    // Calculate SGPA when a grade is selected
-                    calculateSGPA();
-                }
-
-                @Override
-                public void onNothingSelected(AdapterView<?> parent) {
-                }
-            });
+//            spinners[i].setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//                @Override
+//                public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+//                    // Calculate SGPA when a grade is selected
+//                    calculateSGPA();
+//                }
+//
+//                @Override
+//                public void onNothingSelected(AdapterView<?> parent) {
+//                }
+//            });
 
 //            editTexts[i].addTextChangedListener(new SGPAWatcher());
         }
@@ -103,7 +103,8 @@ public class SGPAActivity extends AppCompatActivity {
             }
         }
         if (count > 0) {
-            double sgpa = totalPoints / totalCredits;
+            float sgpa = (float)(totalPoints / totalCredits);
+//            float sgpaResult = (float) sgpa;
             resultTV.setText("SGPA: " + sgpa);
         } else {
             resultTV.setText("No values entered.");
