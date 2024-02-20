@@ -132,7 +132,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
-
+                android:entries="@array/grades_array"
                 app:layout_constraintBottom_toBottomOf="@+id/sub1Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub1Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub1Credit" />
@@ -179,7 +179,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
-
+                android:entries="@array/grades_array"
                 app:layout_constraintBottom_toBottomOf="@+id/sub2Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub2Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub2Credit" />
@@ -226,7 +226,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
-
+                android:entries="@array/grades_array"
                 app:layout_constraintBottom_toBottomOf="@+id/sub3Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub3Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub3Credit" />
@@ -272,6 +272,7 @@
 
             <Spinner
                 android:id="@+id/sub4Grade"
+                android:entries="@array/grades_array"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
@@ -322,6 +323,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+                android:entries="@array/grades_array"
                 app:layout_constraintBottom_toBottomOf="@+id/sub5Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub5Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub5Credit" />
@@ -367,6 +369,7 @@
             <Spinner
                 android:id="@+id/sub6Grade"
                 android:layout_width="0dp"
+                android:entries="@array/grades_array"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 app:layout_constraintBottom_toBottomOf="@+id/sub6Credit"
@@ -415,6 +418,7 @@
             <Spinner
                 android:id="@+id/sub7Grade"
                 android:layout_width="0dp"
+                android:entries="@array/grades_array"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 app:layout_constraintBottom_toBottomOf="@+id/sub7Credit"
@@ -463,6 +467,7 @@
             <Spinner
                 android:id="@+id/sub8Grade"
                 android:layout_width="0dp"
+                android:entries="@array/grades_array"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 app:layout_constraintBottom_toBottomOf="@+id/sub8Credit"
@@ -511,6 +516,7 @@
             <Spinner
                 android:id="@+id/sub9Grade"
                 android:layout_width="0dp"
+                android:entries="@array/grades_array"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 app:layout_constraintBottom_toBottomOf="@+id/sub9Credit"
@@ -560,6 +566,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+                android:entries="@array/grades_array"
                 app:layout_constraintBottom_toBottomOf="@+id/sub10Credit"
                 app:layout_constraintStart_toEndOf="@+id/sub10Credit"
                 app:layout_constraintTop_toTopOf="@+id/sub10Credit" />
